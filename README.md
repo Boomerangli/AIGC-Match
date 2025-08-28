@@ -47,8 +47,8 @@ Requirements:
 ```bash
 git clone https://github.com/yourname/AIGCMatch.git
 cd AIGCMatch
-conda create -n AIGCimatch python=3.10.4
-conda activate AIGCimatch
+conda create -n AIGCmatch python=3.10.4
+conda activate AIGCmatch
 pip install -r requirements.txt
 pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 -f https://download.pytorch.org/whl/torch_stable.html
 ```
@@ -67,7 +67,7 @@ Please modify your dataset path in configuration files.
 ## ⚙️ Usage
 
 ```bash
-sh scripts/AIGCMATCH.sh <num_gpu> <port>
+sh scripts/AIGCmatch.sh <num_gpu> <port>
 ```
 
 ------
